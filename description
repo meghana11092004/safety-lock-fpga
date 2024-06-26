@@ -1,0 +1,5 @@
+A safety lock system is created by using verilog and implemented on FPGA.
+The lock gets opened if the pin didgits provided are correct or else it shows error message.
+If the owner of the lock is present then the system requires an 8 digit code else it requires a 10 didgit code for security reasons.
+The 2 digit code is given by the bank at the time of opening the deposit.
+In this way safety lock is designed and implemented on FPGA board succesfully. 
