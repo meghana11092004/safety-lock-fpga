@@ -1,5 +1,16 @@
-A safety lock system is created by using verilog and implemented on FPGA.
-The lock gets opened if the pin didgits provided are correct or else it shows error message.
-If the owner of the lock is present then the system requires an 8 digit code else it requires a 10 didgit code for security reasons.
-The 2 digit code is given by the bank at the time of opening the deposit.
-In this way safety lock is designed and implemented on FPGA board succesfully. 
+FPGA SAFETY DEPOSIT VAULT LOCK:
+This project implements a safety lock deposit vault using an FPGA.
+The lock mechanism is controlled by an 8-digit code system, ensuring high security and flexibility. The main features include:
+
+8 digit code system:
+Owner: 4-digit code
+President: 4-digit code
+Managers: Two managers, each with a 2-digit code
+
+10-Digit Code Override:
+
+If the owner is absent, the lock requires a 10-digit code to be opened, combining the president's 4-digit code and
+the two managers' 2-digit codes plus a random number which is generated at the time of opening a deposit.
+
+This project demonstrates a practical application of FPGA in security systems, with VHDL/Verilog code 
+for the implementation, test benches for simulation, and documentation for ease of understanding and reproduction.
