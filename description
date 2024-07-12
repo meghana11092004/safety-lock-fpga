@@ -12,5 +12,5 @@ Managers: Two managers, each with a 2-digit code
 If the owner is absent, the lock requires a 10-digit code to be opened, combining the president's 4-digit code and
 the two managers' 2-digit codes plus a random number which is generated at the time of opening a deposit.
 
-This project demonstrates a practical application of FPGA in security systems, with VHDL/Verilog code 
+This project demonstrates a practical application of FPGA in security systems, with Verilog code 
 for the implementation, test benches for simulation, and documentation for ease of understanding and reproduction.
